@@ -27,8 +27,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    //'sireno-grid/dist/sireno-grid.css',
-    'assets/sireno-grid/sireno-grid.scss',
+    process.DEPLOY_ENV == 'gh-pages' ? 'sireno-grid/dist/sireno-grid.css' : 'assets/sireno-grid/sireno-grid.scss',
     'assets/scss/sireno-web.scss'
   ],
 
