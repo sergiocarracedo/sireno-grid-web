@@ -7,11 +7,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Sireno Grid: A lightweight Css grid system based in CSS Grid Layout width flex fallback.',
+    title: 'Sireno Grid: A lightweight CSS Grid system based on CSS Grid Layout with flexbox fallback for unsupported browsers.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Sireno Grid: A lightweight Css grid system based in CSS Grid Layout width flex fallback.' }
+      { hid: 'description', name: 'description', content: 'Sireno Grid: A lightweight CSS Grid system based on CSS Grid Layout with flexbox fallback for unsupported browsers.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -21,7 +21,7 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#ff4260' },
 
   /*
   ** Global CSS

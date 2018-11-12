@@ -26,6 +26,11 @@
       margin-bottom: 10px;
     }
   }
+
+  .vigotech-wrapper {
+    padding: 10px 0 20px 0;
+    text-align: center;
+  }
 }
 
 
@@ -50,4 +55,24 @@
   }
 }
 
+#demo-embed {
+  .grid-demo {
+    .grid-row {
+      [class^="col-"], [class*=" col-"] {
+        padding: 0;
+      }
+    }
+  }
+}
+
+
+#footer {
+  background: #333;
+  padding: 15px;
+  color: $white;
+  p {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
 

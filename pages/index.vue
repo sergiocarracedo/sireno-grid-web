@@ -17,6 +17,8 @@
     <DemoEmbed />
 
     <DemoMargins />
+
+    <Footer />
   </div>
 </template>
 
@@ -30,10 +32,12 @@
   import DemoHiddenVisible from "../components/DemoHiddenVisible";
   import DemoEmbed from "../components/DemoEmbed";
   import DemoMargins from "../components/DemoMargins";
+  import Footer from "../components/Footer";
 
 
   export default {
     components: {
+      Footer,
       DemoMargins,
       DemoEmbed,
       DemoHiddenVisible,

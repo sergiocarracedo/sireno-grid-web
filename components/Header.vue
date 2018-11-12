@@ -11,6 +11,14 @@
         A grid system based on the <a href="https://caniuse.com/#search=grid">grid</a> display property with <a
         href="http://caniuse.com/#search=flexbox"><em>flex</em></a> fallback for unsupported browsers.
       </h3>
+
+      <div class="vigotech-wrapper">
+        <a
+          href="https://vigotech.org"
+          class="vigotech-claim">
+          Made with <i class="vt-pinecone" /> in <strong>Vigo</strong>
+        </a>
+      </div>
     </header>
 
     <div class="text-center mb-4">
