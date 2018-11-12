@@ -1,0 +1,34 @@
+.web-wrapper {
+  padding-top: 50px;
+
+  section {
+    margin-bottom: 50px;
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+
+.grid-demo {
+  .grid-row {
+    border: 1px dashed #666;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+
+    [class^="col-"], [class*=" col-"] {
+      background: $primary-color;
+      text-align: center;
+      color: $white;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      align-items: center;
+      align-content: center;
+      display: grid;
+      border: 1px solid $black;
+    }
+  }
+}
+
+

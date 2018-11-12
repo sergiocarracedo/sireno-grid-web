@@ -1,0 +1,34 @@
+body {
+  font-family: $primary-font;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+a {
+  color: $primary-color;
+  @include underline-effect($primary-color)
+}
+
+pre {
+  background: #eee;
+  padding: 15px 30px;
+  overflow: auto;
+  > code {
+    white-space: pre-line;
+    display: block;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
