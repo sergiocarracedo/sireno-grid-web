@@ -1,10 +1,22 @@
 .web-wrapper {
   padding-top: 50px;
+  overflow-x: hidden;
 
   section {
     padding-bottom: 20px;
-    border-bottom: 1px dotted $black;
     margin-bottom: 50px;
+    position: relative;
+    &:after {
+      border-bottom: 1px dotted $black;
+      content: '';
+      display: block;
+      height: 1px;
+      width: 100vw;
+      margin-left: -50vw;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+    }
     h2 {
       margin-bottom: 20px;
     }
