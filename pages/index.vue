@@ -4,11 +4,21 @@
 
     <DemoBasic />
 
+    <DemoContainers />
+
     <DemoStartEnd />
 
     <DemoOrder />
 
     <DemoGutters />
+
+    <DemoHiddenVisible />
+
+    <DemoEmbed />
+
+    <h2>Margins</h2>
+
+
 
   </div>
 </template>
@@ -19,10 +29,16 @@
   import DemoOrder from "../components/DemoOrder";
   import DemoStartEnd from "../components/DemoStartEnd";
   import DemoGutters from "../components/DemoGutters";
+  import DemoContainers from "../components/DemoContainers";
+  import DemoHiddenVisible from "../components/DemoHiddenVisible";
+  import DemoEmbed from "../components/DemoEmbed";
 
 
   export default {
     components: {
+      DemoEmbed,
+      DemoHiddenVisible,
+      DemoContainers,
       DemoGutters,
       DemoStartEnd,
       DemoOrder,
