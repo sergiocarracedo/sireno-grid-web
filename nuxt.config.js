@@ -1,6 +1,5 @@
 const pkg = require('./package')
 
-console.log('DEPLOY_ENV: ', process.env.DEPLOY_ENV)
 module.exports = {
   mode: 'universal',
 
@@ -28,7 +27,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    process.env.DEPLOY_ENV == 'gh-pages' ? 'sireno-grid/dist/sireno-grid.css' : 'assets/sireno-grid/sireno-grid.scss',
+    process.env.DEPLOY_ENV == 'GH_PAGES' ? 'sireno-grid/dist/sireno-grid.css' : 'assets/sireno-grid/sireno-grid.scss',
     'assets/scss/sireno-web.scss'
   ],
 
