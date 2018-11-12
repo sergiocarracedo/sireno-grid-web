@@ -4,6 +4,7 @@
   "description": "Sireno Grid website",
   "author": "Sergio Carracedo",
   "private": false,
+  "license": "GPLv3",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
