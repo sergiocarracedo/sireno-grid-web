@@ -37,12 +37,25 @@
       </a>
     </div>
 
-    <div class="mb-5">
+    <div class="mb-4">
       <!-- prettier-ignore -->
       <pre>
 npm i sireno-grid --save
   // or
 yarn add sireno-grid</pre>
+    </div>
+
+    <div class="mb-3">
+      <p>Proudly sponsored by <a
+        href="https://opsou.com"
+        class="sponsor-wrapper"
+      >
+        <img
+          src="/opsou.png"
+          alt="Opsou"
+          class="sponsor"
+        >
+      </a></p>
     </div>
   </section>
 </template>
