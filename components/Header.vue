@@ -5,7 +5,10 @@
   >
     <header >
       <h1>
-        &#x1F9DC;&#x200D; Sireno Grid
+        <img
+          src="/logo.png"
+          alt="&#x1F9DC;&#x200D; Sireno Grid"
+        >
       </h1>
       <h3>
         A grid system based on the <a href="https://caniuse.com/#search=grid">grid</a> display property with <a
@@ -46,7 +49,7 @@ yarn add sireno-grid</pre>
     </div>
 
     <div class="mb-3">
-      <p>Proudly sponsored by <a
+      <p class="mb-1">Proudly sponsored by <a
         href="https://opsou.com"
         class="sponsor-wrapper"
       >
@@ -55,7 +58,20 @@ yarn add sireno-grid</pre>
           alt="Opsou"
           class="sponsor"
         >
-      </a></p>
+      </a>
+      </p>
+      <p>Logo design by <a
+        href="https://pedrofigueras.com"
+        class="sponsor-wrapper-pf"
+      >
+        <img
+          src="/pedrofigueras.png"
+          alt="Pedro Figueras"
+          class="sponsor"
+        >
+      </a>
+
+      </p>
     </div>
   </section>
 </template>

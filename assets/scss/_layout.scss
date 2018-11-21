@@ -43,6 +43,18 @@
       background: #009bda;
     }
   }
+
+  .sponsor-wrapper-pf {
+    .sponsor {
+      max-width: 120px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &:after {
+      background: #e20a17;
+    }
+  }
 }
 
 
