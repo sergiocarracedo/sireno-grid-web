@@ -30,12 +30,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'DemoHiddenVisible',
-    data () {
-      return {
-        // prettier-ignore
-        example: `<div class="grid-row">
+export default {
+  name: "DemoHiddenVisible",
+  data() {
+    return {
+      // prettier-ignore
+      example: `<div class="grid-row">
     <div class="col-xs-12 col-sm-2 hidden-xs hidden-sm">
       A
     </div>
@@ -52,7 +52,7 @@
       E
     </div>
   </div>`
-      }
-    }
+    };
   }
+};
 </script>

@@ -61,7 +61,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'DemoContainers',
-  }
+export default {
+  name: "DemoContainers"
+};
 </script>

@@ -3,7 +3,6 @@
     id="demo-simple"
     class="container-fluid-1440"
   >
-
     <h2>Basic usage</h2>
     <div class="grid-demo">
       <div class="grid-row">
@@ -48,7 +47,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'DemoBasic'
-  }
+export default {
+  name: "DemoBasic"
+};
 </script>

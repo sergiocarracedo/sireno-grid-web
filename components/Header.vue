@@ -3,7 +3,7 @@
     id="header"
     class="container-fluid-1440"
   >
-    <header >
+    <header>
       <h1>
         <img
           src="/logo.png"
@@ -11,14 +11,20 @@
         >
       </h1>
       <h3>
-        A grid system based on the <a href="https://caniuse.com/#search=grid">grid</a> display property with <a
-        href="http://caniuse.com/#search=flexbox"><em>flex</em></a> fallback for unsupported browsers.
+        A grid system based on the <a href="https://caniuse.com/#search=grid">
+          grid
+        </a> display property with <a
+          href="http://caniuse.com/#search=flexbox"
+        >
+          <em>flex</em>
+        </a> fallback for unsupported browsers.
       </h3>
 
       <div class="vigotech-wrapper">
         <a
           href="https://vigotech.org"
-          class="vigotech-claim">
+          class="vigotech-claim"
+        >
           Made with <i class="vt-pinecone" /> in <strong>Vigo</strong>
         </a>
       </div>
@@ -49,35 +55,48 @@ yarn add sireno-grid</pre>
     </div>
 
     <div class="mb-3">
-      <p class="mb-1">Proudly sponsored by <a
-        href="https://opsou.com"
-        class="sponsor-wrapper"
-      >
-        <img
-          src="/opsou.png"
-          alt="Opsou"
-          class="sponsor"
+      <p class="mb-1">
+        Proudly sponsored by <a
+          href="https://opsou.com"
+          class="sponsor-wrapper"
         >
-      </a>
+          <img
+            src="/opsou.png"
+            alt="Opsou"
+            class="sponsor"
+          >
+        </a>
       </p>
-      <p>Logo design by <a
-        href="https://pedrofigueras.com"
-        class="sponsor-wrapper-pf"
+      <p class="mb-1">
+        Logo design by <a
+          href="https://pedrofigueras.com"
+          class="sponsor-wrapper-pf"
+        >
+          <img
+            src="/pedrofigueras.png"
+            alt="Pedro Figueras"
+            class="sponsor"
+          >
+        </a>
+      </p>
+      <p class="sponsor-p-browserstack">
+        Browser test thanks to <a
+          href="https://www.browserstack.com/"
+          class="sponsor-wrapper-browserstack"
       >
         <img
-          src="/pedrofigueras.png"
-          alt="Pedro Figueras"
-          class="sponsor"
+            src="/browserstack-logo-600x315.png"
+            alt="BrowserStack"
+            class="sponsor"
         >
       </a>
-
       </p>
     </div>
   </section>
 </template>
 
 <script>
-  export default {
-    name: 'Header'
-  }
+export default {
+  name: "Header"
+};
 </script>

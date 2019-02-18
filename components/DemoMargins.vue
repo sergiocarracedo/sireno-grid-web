@@ -47,7 +47,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'DemoMargins'
-  }
+export default {
+  name: "DemoMargins"
+};
 </script>
