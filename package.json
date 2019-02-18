@@ -17,7 +17,7 @@
   "dependencies": {
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
-    "sireno-grid": "^0.2.3"
+    "sireno-grid": "^0.3.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",

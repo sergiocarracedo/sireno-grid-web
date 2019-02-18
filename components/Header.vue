@@ -83,13 +83,13 @@ yarn add sireno-grid</pre>
         Browser test thanks to <a
           href="https://www.browserstack.com/"
           class="sponsor-wrapper-browserstack"
-      >
-        <img
+        >
+          <img
             src="/browserstack-logo-600x315.png"
             alt="BrowserStack"
             class="sponsor"
-        >
-      </a>
+          >
+        </a>
       </p>
     </div>
   </section>

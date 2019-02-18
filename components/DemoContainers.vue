@@ -15,7 +15,9 @@
       <div class="grid-demo">
         <div class="grid-row">
           <div class="col-xs-12 text-center">
-            <strong>contanier-fluid</strong> Uses full viewport size
+            <div class="box">
+              <strong>contanier-fluid</strong> Uses full viewport size
+            </div>
           </div>
         </div>
       </div>
@@ -34,7 +36,9 @@
       <div class="grid-demo">
         <div class="grid-row">
           <div class="col-xs-12 text-center">
-            <strong>contanier-fluid-1920</strong> Uses max 1920px viewport size
+            <div class="box">
+              <strong>contanier-fluid-1920</strong> Uses max 1920px viewport size
+            </div>
           </div>
         </div>
       </div>
@@ -52,7 +56,9 @@
       <div class="grid-demo">
         <div class="grid-row">
           <div class="col-xs-12 text-center">
-            <strong>contanier-fluid-1440</strong> Uses max 1440px viewport size
+            <div class="box">
+              <strong>contanier-fluid-1440</strong> Uses max 1440px viewport size
+            </div>
           </div>
         </div>
       </div>

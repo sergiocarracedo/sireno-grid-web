@@ -7,19 +7,29 @@
     <div class="grid-demo">
       <div class="grid-row">
         <div class="col-xs-12 col-sm-2 hidden-xs hidden-sm">
-          <b>A</b> col-xs-12 hidden-xs hidden-sm
+          <div class="box">
+            <b>A</b> col-xs-12 hidden-xs hidden-sm
+          </div>
         </div>
         <div class="col-xs-12 col-sm-3 visible-lg">
-          <b>B</b> col-xs-12 col-sm-3 visible-lg
+          <div class="box">
+            <b>B</b> col-xs-12 col-sm-3 visible-lg
+          </div>
         </div>
         <div class="col-xs-12 col-sm-3 hidden-lg">
-          <b>C</b> col-xs-12 col-sm-3 hidden-lg
+          <div class="box">
+            <b>C</b> col-xs-12 col-sm-3 hidden-lg
+          </div>
         </div>
         <div class="col-xs-12 col-sm-2">
-          <b>D</b> col-xs-12 col-sm-2
+          <div class="box">
+            <b>D</b> col-xs-12 col-sm-2
+          </div>
         </div>
         <div class="col-xs-12 col-sm-2">
-          <b>E</b> col-xs-12 col-sm-2
+          <div class="box">
+            <b>E</b> col-xs-12 col-sm-2
+          </div>
         </div>
       </div>
     </div>

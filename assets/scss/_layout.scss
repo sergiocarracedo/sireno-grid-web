@@ -19,6 +19,10 @@
     }
     h2 {
       margin-bottom: 20px;
+
+      strong {
+        color: $primary-color;
+      }
     }
 
     h3 {
@@ -78,15 +82,18 @@
     margin-bottom: 8px;
 
     [class^="col-"], [class*=" col-"] {
-      background: $primary-color;
-      text-align: center;
-      color: $white;
-      padding-top: 8px;
-      padding-bottom: 8px;
-      align-items: center;
-      align-content: center;
-      display: grid;
-      border: 1px solid $black;
+      .box {
+        background: $primary-color;
+        text-align: center;
+        color: $white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        align-items: center;
+        align-content: center;
+        display: grid;
+        border: 1px solid $black;
+        height: 100%;
+      }
     }
   }
 
@@ -109,7 +116,7 @@
 #demo-embed {
   .grid-demo {
     .grid-row {
-      [class^="col-"], [class*=" col-"] {
+      .box {
         padding: 0;
       }
     }

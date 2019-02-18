@@ -1,6 +1,6 @@
 <template>
   <section
-      id="demo-fillers"
+    id="demo-fillers"
   >
     <div class="container-fluid-1440 mb-5">
       <div class="grid-row">
@@ -36,32 +36,42 @@
 
     <div class="grid-demo mb-5">
       <div class="grid-filler grid-filler-1140">
-        <div class="grid-col-filler grid-left-filler"></div>
+        <div class="grid-col-filler grid-left-filler" />
         <div class="grid-filler-container">
           <div class="grid-row">
             <div class="col-xs-6">
-              col-xs-6
+              <div class="box">
+                col-xs-6
+              </div>
             </div>
 
             <div class="col-xs-6">
-              col-xs-6
+              <div class="box">
+                col-xs-6
+              </div>
             </div>
           </div>
           <div class="grid-row">
             <div class="col-xs-6 col-sm-4">
-              col-xs-6 col-sm-4
+              <div class="box">
+                col-xs-6 col-sm-4
+              </div>
             </div>
 
             <div class="col-xs-6 col-sm-4">
-              col-xs-6 col-sm-4
+              <div class="box">
+                col-xs-6 col-sm-4
+              </div>
             </div>
 
             <div class="col-xs-12 col-sm-4">
-              col-xs-12 col-sm-4
+              <div class="box">
+                col-xs-12 col-sm-4
+              </div>
             </div>
           </div>
         </div>
-        <div class="grid-col-filler grid-right-filler"></div>
+        <div class="grid-col-filler grid-right-filler" />
       </div>
     </div>
 
@@ -101,13 +111,17 @@ export default {
 </div>`,
       ownExample: `
 .grid-filler-1500 {
-  grid-template-columns: auto minmax(0, 1500px) auto;
-  @supports not (display: grid) {
-    max-width: 1500px;
-    margin: auto;
+    @supports (display: grid) {
+      grid-template-columns: auto minmax(0, 1500px) auto;
+    }
+    .grid-filler-container {
+      max-width: 1500px;
+    }
   }
-}
-      `
+
+/* OR use mixin */
+
+@include make-grid-filler-size(1500);`
     };
   }
 };
