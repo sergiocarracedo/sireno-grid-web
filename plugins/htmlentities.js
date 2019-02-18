@@ -1,8 +1,10 @@
-import Vue from 'vue'
-import { XmlEntities } from 'html-entities'
+import Vue from "vue";
+import { XmlEntities } from "html-entities";
 
-Vue.filter('htmlentities', function (value) {
+console.log("test");
+
+Vue.filter("htmlentities", function(value) {
   const entities = new XmlEntities();
 
-  return entities.encode(value)
-})
+  return entities.encode(value);
+});

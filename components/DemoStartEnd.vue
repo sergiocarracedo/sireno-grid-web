@@ -24,12 +24,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'DemoStartEnd',
-    data () {
-      return {
-        // prettier-ignore
-        orderExample: `<div class="grid-demo">
+export default {
+  name: "DemoStartEnd",
+  data() {
+    return {
+      // prettier-ignore
+      orderExample: `<div class="grid-demo">
       <div class="grid-row">
         <div class="col-xs-6 col-xs-end-6 col-sm-4 col-sm-end-8">
           col-xs-6 col-xs-end-6 col-sm-4 col-sm-end-8
@@ -42,7 +42,7 @@
       </div>
     </div>
   </div>`
-      }
-    }
+    };
   }
+};
 </script>

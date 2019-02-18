@@ -55,6 +55,18 @@
       background: #e20a17;
     }
   }
+
+  .sponsor-wrapper-browserstack {
+    .sponsor {
+      max-width: 140px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &:after {
+      background: #000;
+    }
+  }
 }
 
 
@@ -77,6 +89,21 @@
       border: 1px solid $black;
     }
   }
+
+  .grid-right-filler,
+  .grid-left-filler {
+    display: inline-grid;
+    align-content: center;
+    justify-content: center;
+  }
+  .grid-left-filler {
+    background: #333;
+    color: $white;
+  }
+
+  .grid-right-filler {
+    background: #ccc;
+  }
 }
 
 #demo-embed {
@@ -86,6 +113,16 @@
         padding: 0;
       }
     }
+  }
+}
+
+#demo-fillers {
+  .grid-row:last-child {
+    margin-bottom: 0;
+  }
+
+  ul {
+    display: inline-block;
   }
 }
 

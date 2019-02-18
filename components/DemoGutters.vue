@@ -46,45 +46,45 @@
 </template>
 
 <script>
-  export default {
-    name: 'DemoGutters',
-    data () {
-      return {
-        // prettier-ignore
-    orderExample: `<div class="grid-row">
-    <div class="col-xs-6 col-sm-4 no-gutter-right-sm">
-      ...
-    </div>
-
-    <div class="col-xs-6 col-sm-4 no-gutters-sm">
-      ...
-    </div>
-
-    <div class="col-xs-6 col-sm-4">
-      ...
-    </div>
-  </div>
-
-  <div class="grid-row">
-    <div class="col-xs-12 no-gutters">
-      ...
-    </div>
-  </div>
-
-  <div class="grid-row">
-    <div class="col-xs-12 col-sm-4 no-gutters gutter-left-sm">
+export default {
+  name: "DemoGutters",
+  data() {
+    return {
+      // prettier-ignore
+      orderExample: `<div class="grid-row">
+  <div class="col-xs-6 col-sm-4 no-gutter-right-sm">
     ...
-    </div>
+  </div>
 
-    <div class="col-xs-12 col-sm-4 no-gutters-sm gutters-lg">
-      ...
-    </div>
+  <div class="col-xs-6 col-sm-4 no-gutters-sm">
+    ...
+  </div>
 
-    <div class="col-xs-12 col-sm-4 no-gutter-left-sm">
-      ...
-    </div>
-  </div>`
-      }
-    }
+  <div class="col-xs-6 col-sm-4">
+    ...
+  </div>
+</div>
+
+<div class="grid-row">
+  <div class="col-xs-12 no-gutters">
+    ...
+  </div>
+</div>
+
+<div class="grid-row">
+  <div class="col-xs-12 col-sm-4 no-gutters gutter-left-sm">
+  ...
+  </div>
+
+  <div class="col-xs-12 col-sm-4 no-gutters-sm gutters-lg">
+    ...
+  </div>
+
+  <div class="col-xs-12 col-sm-4 no-gutter-left-sm">
+    ...
+  </div>
+</div>`
+    };
   }
+};
 </script>

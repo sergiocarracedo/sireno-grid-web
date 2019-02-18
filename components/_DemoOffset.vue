@@ -28,7 +28,6 @@
           .col-sm-1 .col-offset-4
         </div>
       </div>
-
     </div>
 
     <div class="mb-5">
@@ -49,7 +48,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'DemoOffset'
-  }
+export default {
+  name: "DemoOffset"
+};
 </script>

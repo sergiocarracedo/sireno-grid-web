@@ -16,7 +16,8 @@
               src="https://www.youtube-nocookie.com/embed/l69Uz1vYbNU"
               frameborder="0"
               allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen />
+              allowfullscreen
+            />
           </div>
         </div>
       </div>
@@ -32,7 +33,8 @@
               src="https://www.youtube-nocookie.com/embed/l69Uz1vYbNU"
               frameborder="0"
               allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen />
+              allowfullscreen
+            />
           </div>
         </div>
         <div class="col-xs-4">
@@ -43,7 +45,8 @@
               src="https://www.youtube-nocookie.com/embed/l69Uz1vYbNU"
               frameborder="0"
               allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen />
+              allowfullscreen
+            />
           </div>
         </div>
       </div>
@@ -56,12 +59,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'DemoEmbed',
-    data () {
-      return {
-        // prettier-ignore
-        example: `<div class="responsive-embed-wrapper">
+export default {
+  name: "DemoEmbed",
+  data() {
+    return {
+      // prettier-ignore
+      example: `<div class="responsive-embed-wrapper">
       <iframe
         width="560"
         height="315"
@@ -71,7 +74,7 @@
         allowfullscreen>
       </iframe>
     </div>`
-      }
-    }
+    };
   }
+};
 </script>

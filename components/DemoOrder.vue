@@ -49,12 +49,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'DemoOrder',
-    data () {
-      return {
-        // prettier-ignore
-        orderExample: `<div class="grid-row">
+export default {
+  name: "DemoOrder",
+  data() {
+    return {
+      // prettier-ignore
+      orderExample: `<div class="grid-row">
   <div class="col-xs-12 col-sm-2 col-sm-order-2">
     A
   </div>
@@ -72,7 +72,7 @@
   </div>
 </div>
         `
-      }
-    }
+    };
   }
+};
 </script>
