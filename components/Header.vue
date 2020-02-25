@@ -48,12 +48,6 @@ yarn add sireno-grid</pre>
 
     <div class="mb-3">
       <p class="mb-1">
-        Proudly sponsored by
-        <a href="https://opsou.com" class="sponsor-wrapper">
-          <img src="/opsou.png" alt="Opsou" class="sponsor" />
-        </a>
-      </p>
-      <p class="mb-1">
         Logo design by
         <a href="https://pedrofigueras.com" class="sponsor-wrapper-pf">
           <img src="/pedrofigueras.png" alt="Pedro Figueras" class="sponsor" />
