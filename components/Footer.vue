@@ -1,16 +1,14 @@
 <template>
   <footer id="footer">
     <p>
-      Created by <a href="https://sergiocarracedo.es">
+      Created by
+      <a href="https://sergiocarracedo.es">
         Sergio Carracedo
       </a>
     </p>
 
     <p>
-      <a
-        href="https://vigotech.org"
-        class="vigotech-claim vigotech-dark"
-      >
+      <a href="https://vigotech.org" class="vigotech-claim vigotech-dark">
         Made with <i class="vt-pinecone" /> in <strong>Vigo</strong>
       </a>
     </p>

@@ -1,14 +1,14 @@
 <template>
-  <section
-    id="demo-fillers"
-  >
+  <section id="demo-fillers">
     <div class="container-fluid-1440 mb-5">
       <div class="grid-row">
         <div class="col-xs-12 text-center">
           <h2>Col Fillers</h2>
 
           <p class="mb-1">
-            <i>Col Fillers</i> are similar to containers but they have 2 grid cols outside content. This allow to you, set different colors in each outside column.
+            <i>Col Fillers</i> are similar to containers but they have 2 grid
+            cols outside content. This allow to you, set different colors in
+            each outside column.
           </p>
 
           <p class="mb-1">

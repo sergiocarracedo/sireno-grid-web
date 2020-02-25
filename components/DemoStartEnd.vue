@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="demo-startend"
-    class="container-fluid-1440"
-  >
+  <section id="demo-startend" class="container-fluid-1440">
     <h2>End column position <strong>⚠️ no flexbox fallback ⚠️</strong></h2>
     <div class="grid-demo">
       <div class="grid-row">

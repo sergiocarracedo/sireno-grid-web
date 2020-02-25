@@ -25,7 +25,9 @@
 </template>
 
 <script>
-import Header from "~/components/Header";
+import Footer from "../components/Footer";
+import DemoMargins from "../components/DemoMargins";
+import DemoFillers from "../components/DemoFillers";
 import DemoBasic from "../components/DemoBasic";
 import DemoOrder from "../components/DemoOrder";
 import DemoStartEnd from "../components/DemoStartEnd";
@@ -33,9 +35,7 @@ import DemoGutters from "../components/DemoGutters";
 import DemoContainers from "../components/DemoContainers";
 import DemoHiddenVisible from "../components/DemoHiddenVisible";
 import DemoEmbed from "../components/DemoEmbed";
-import DemoMargins from "../components/DemoMargins";
-import DemoFillers from "../components/DemoFillers";
-import Footer from "../components/Footer";
+import Header from "~/components/Header";
 
 export default {
   components: {

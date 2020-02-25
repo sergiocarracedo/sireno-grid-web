@@ -1,11 +1,6 @@
 <template>
-  <section
-    id="demo-embed"
-    class="container-fluid-1440"
-  >
+  <section id="demo-embed" class="container-fluid-1440">
     <h2>Responsive Embed iframe</h2>
-
-
     <div class="grid-demo">
       <div class="grid-row">
         <div class="col-xs-12">

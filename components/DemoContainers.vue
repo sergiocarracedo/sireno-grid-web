@@ -1,7 +1,5 @@
 <template>
-  <section
-    id="demo-containters"
-  >
+  <section id="demo-containters">
     <div class="container-fluid-1440">
       <div class="grid-row">
         <div class="col-xs-12 text-center">
@@ -23,7 +21,6 @@
       </div>
     </div>
 
-
     <div class="container-fluid-1440">
       <div class="grid-row">
         <div class="col-xs-12 text-center">
@@ -37,7 +34,8 @@
         <div class="grid-row">
           <div class="col-xs-12 text-center">
             <div class="box">
-              <strong>contanier-fluid-1920</strong> Uses max 1920px viewport size
+              <strong>contanier-fluid-1920</strong>
+              Uses max 1920px viewport size
             </div>
           </div>
         </div>
@@ -57,7 +55,8 @@
         <div class="grid-row">
           <div class="col-xs-12 text-center">
             <div class="box">
-              <strong>contanier-fluid-1440</strong> Uses max 1440px viewport size
+              <strong>contanier-fluid-1440</strong>
+              Uses max 1440px viewport size
             </div>
           </div>
         </div>
