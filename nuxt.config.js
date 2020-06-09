@@ -15,6 +15,26 @@ module.exports = {
         name: "description",
         content:
           "Sireno Grid: A lightweight CSS Grid system based on CSS Grid Layout with flexbox fallback for unsupported browsers."
+      },
+      {
+        hid: "og:title",
+        property: "og:title",
+        content: "SirenoGrid CSS"
+      },
+      {
+        hid: "og:description",
+        property: "og:description",
+        content:
+          "A lightweight CSS Grid system based on CSS Grid Layout with flexbox fallback for unsupported browsers."
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: "https://sirenogrid.com/og-image.jpg"
+      },
+      {
+        property: "twitter:card",
+        content: "summary_large_image"
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
