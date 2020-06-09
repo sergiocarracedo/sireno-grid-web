@@ -1,0 +1,251 @@
+<!doctype html>
+<html data-n-head-ssr>
+  <head>
+    <title>Sireno Grid: A lightweight CSS Grid system based on CSS Grid Layout with flexbox fallback for unsupported browsers.</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content="Sireno Grid: A lightweight CSS Grid system based on CSS Grid Layout with flexbox fallback for unsupported browsers."><meta data-n-head="ssr" data-hid="og:title" property="og:title" content="SirenoGrid CSS"><meta data-n-head="ssr" data-hid="og:description" property="og:description" content="A lightweight CSS Grid system based on CSS Grid Layout with flexbox fallback for unsupported browsers."><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://sirenogrid.com/og-image.jpg"><meta data-n-head="ssr" property="twitter:card" content="summary_large_image"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" href="/_nuxt/9d74884836d941bb7583.js" as="script"><link rel="preload" href="/_nuxt/e167b7e71dbbdaadd438.js" as="script"><link rel="preload" href="/_nuxt/30d94f308632e917f93f.css" as="style"><link rel="preload" href="/_nuxt/d42f9c9c7dd1ac9b1614.js" as="script"><link rel="preload" href="/_nuxt/34133edc30125d13d88b.css" as="style"><link rel="preload" href="/_nuxt/d9d3157c2bcddf07f395.js" as="script"><link rel="preload" href="/_nuxt/6601a3e6bbe66de18219.js" as="script"><link rel="stylesheet" href="/_nuxt/30d94f308632e917f93f.css"><link rel="stylesheet" href="/_nuxt/34133edc30125d13d88b.css">
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div><div class="web-wrapper"><section id="header" class="container-fluid-1440"><header><h1><img src="/logo.png" alt="🧜‍ Sireno Grid"></h1> <h3>
+        A grid system based on the
+        <a href="https://caniuse.com/#search=grid">
+          grid
+        </a>
+        display property with
+        <a href="http://caniuse.com/#search=flexbox"><em>flex</em></a>
+        fallback for unsupported browsers.
+      </h3> <div class="vigotech-wrapper"><a href="https://vigotech.org" class="vigotech-claim">
+          Made with
+          <i class="vt-pinecone"></i>
+          in <strong>Vigo</strong></a></div></header> <div class="text-center mb-4"><a href="https://github.com/sergiocarracedo/sireno-grid" class="btn btn-wide">
+        GitHub
+      </a> <a href="https://www.npmjs.com/package/sireno-grid" class="btn btn-wide">
+        Npm
+      </a></div> <div class="mb-4"><pre>npm i sireno-grid --save
+  // or
+yarn add sireno-grid</pre></div> <div class="mb-3"><p class="mb-1">
+        Logo design by
+        <a href="https://pedrofigueras.com" class="sponsor-wrapper-pf"><img src="/pedrofigueras.png" alt="Pedro Figueras" class="sponsor"></a></p> <p class="sponsor-p-browserstack">
+        Browser test thanks to
+        <a href="https://www.browserstack.com/" class="sponsor-wrapper-browserstack"><img src="/browserstack-logo-600x315.png" alt="BrowserStack" class="sponsor"></a></p></div></section> <section id="demo-simple" class="container-fluid-1440"><h2>Basic usage</h2> <div class="grid-demo"><div class="grid-row"><div class="col-xs-12 col-sm-1"><div class="box">
+            .col-xs-12 .col-sm-1
+          </div></div> <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4"><div class="box">
+            .col-xs-12 .col-sm-6 .col-md-5 .col-lg-4
+          </div></div> <div class="col-xs-12 col-sm-5 col-md-6 col-lg-7"><div class="box">
+            .col-xs-12 .col-sm-5 .col-md-6 .col-lg-7
+          </div></div></div> <div class="grid-row"><div class="col-xs-12 col-sm-1"><div class="box">
+            .col-xs-12 .col-sm-1
+          </div></div> <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4"><div class="box">
+            .col-xs-12 .col-sm-10
+          </div></div> <div class="col-xs-12 col-sm-5 col-md-6 col-lg-7"><div class="box">
+            .col-xs-12 .col-sm-1
+          </div></div></div></div> <div class="mb-5"><pre>&lt;div class="grid-row">
+  &lt;div class="col-xs-12 col-sm-1">
+    ...
+  &lt;/div>
+  &lt;div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+    ...
+  &lt;/div>
+  &lt;div class="col-xs-12 col-sm-5 col-md-6 col-lg-7">
+    ...
+  &lt;/div>
+&lt;/div></pre></div></section> <section id="demo-containters"><div class="container-fluid-1440"><div class="grid-row"><div class="col-xs-12 text-center"><h2>Containers</h2> <h3>container-fluid</h3></div></div></div> <div class="container-fluid"><div class="grid-demo"><div class="grid-row"><div class="col-xs-12 text-center"><div class="box"><strong>contanier-fluid</strong> Uses full viewport size
+          </div></div></div></div></div> <div class="container-fluid-1440"><div class="grid-row"><div class="col-xs-12 text-center"><h3>container-fluid-1920</h3></div></div></div> <div class="container-fluid-1920"><div class="grid-demo"><div class="grid-row"><div class="col-xs-12 text-center"><div class="box"><strong>contanier-fluid-1920</strong>
+            Uses max 1920px viewport size
+          </div></div></div></div></div> <div class="container-fluid-1440"><div class="grid-row"><div class="col-xs-12 text-center"><h3>container-fluid-1440</h3></div></div></div> <div class="container-fluid-1440"><div class="grid-demo"><div class="grid-row"><div class="col-xs-12 text-center"><div class="box"><strong>contanier-fluid-1440</strong>
+            Uses max 1440px viewport size
+          </div></div></div></div></div></section> <section id="demo-startend" class="container-fluid-1440"><h2>End column position <strong>⚠️ no flexbox fallback ⚠️</strong></h2> <div class="grid-demo"><div class="grid-row"><div class="col-xs-6 col-xs-end-6 col-sm-4 col-sm-end-6"><div class="box">
+          col-xs-6 col-xs-end-6 col-sm-4 col-sm-end-6
+        </div></div></div> <div class="grid-row"><div class="col-xs-6 col-xs-end-10"><div class="box">
+          col-xs-6 col-xs-end-10
+        </div></div></div></div> <div class="mb-5"><pre>&lt;div class="grid-demo">
+      &lt;div class="grid-row">
+        &lt;div class="col-xs-6 col-xs-end-6 col-sm-4 col-sm-end-8">
+          col-xs-6 col-xs-end-6 col-sm-4 col-sm-end-8
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="grid-row">
+        &lt;div class="col-xs-6 col-xs-end-10">
+          col-xs-6 col-xs-end-10
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div></pre></div></section> <section id="demo-offset" class="container-fluid-1440"><h2>Order columns</h2> <div class="grid-demo"><div class="grid-row"><div class="col-xs-12 col-sm-2"><div class="box"><b>A</b>
+          col-xs-12 col-sm-2
+        </div></div> <div class="col-xs-12 col-sm-3"><div class="box"><b>B</b>
+          col-xs-12 col-sm-4
+        </div></div> <div class="col-xs-12 col-sm-3"><div class="box"><b>C</b>
+          col-xs-12 col-sm-3
+        </div></div> <div class="col-xs-12 col-sm-2"><div class="box"><b>D</b>
+          col-xs-12 col-sm-2
+        </div></div> <div class="col-xs-12 col-sm-2"><div class="box"><b>E</b>
+          col-xs-12 col-sm-2
+        </div></div></div> <div class="grid-row"><div class="col-xs-12 col-sm-2 col-sm-order-2"><div class="box"><b>A</b>
+          ... col-sm-order-2
+        </div></div> <div class="col-xs-12 col-sm-3 col-sm-order-4"><div class="box"><b>B</b>
+          ... col-sm-order-4
+        </div></div> <div class="col-xs-12 col-sm-3 col-sm-order-1"><div class="box"><b>C</b>
+          ... col-sm-order-1
+        </div></div> <div class="col-xs-12 col-sm-2 col-sm-order-5"><div class="box"><b>D</b>
+          ... col-sm-order-5
+        </div></div> <div class="col-xs-12 col-sm-2 col-sm-order-3"><div class="box"><b>E</b>
+          ... col-sm-order-3
+        </div></div></div></div> <div class="mb-5"><pre>&lt;div class="grid-row">
+  &lt;div class="col-xs-12 col-sm-2 col-sm-order-2">
+    A
+  &lt;/div>
+  &lt;div class="col-xs-12 col-sm-2 col-sm-order-4">
+    B
+  &lt;/div>
+  &lt;div class="col-xs-12 col-sm-3 col-sm-order-1">
+    C
+  &lt;/div>
+  &lt;div class="col-xs-12 col-sm-4 col-sm-order-5">
+    D
+  &lt;/div>
+  &lt;div class="col-xs-12 col-sm-1 col-sm-order-3">
+    E
+  &lt;/div>
+&lt;/div>
+        </pre></div></section> <section id="demo-gutters" class="container-fluid-1440"><h2>Gutters / grid-gap</h2> <div class="grid-demo"><div class="grid-row"><div class="col-xs-6 col-sm-4 no-gutter-right-sm"><div class="box">
+          col-xs-6 col-sm-4 no-gutter-right-sm
+        </div></div> <div class="col-xs-6 col-sm-4 no-gutters-sm"><div class="box">
+          col-xs-6 col-sm-4 no-gutters-sm
+        </div></div> <div class="col-xs-6 col-sm-4"><div class="box">
+          col-xs-6 col-sm-4
+        </div></div></div> <div class="grid-row"><div class="col-xs-12 no-gutters"><div class="box">
+          col-xs-12 no-gutters
+        </div></div></div> <div class="grid-row"><div class="col-xs-12 col-sm-4 no-gutters gutter-left-sm"><div class="box">
+          col-xs-12 no-gutters gutter-left-sm
+        </div></div> <div class="col-xs-12 col-sm-4 no-gutters-sm gutters-lg"><div class="box">
+          col-xs-12 col-sm-4 no-gutter-right-sm gutters-lg
+        </div></div> <div class="col-xs-12 col-sm-4 no-gutter-left-sm"><div class="box">
+          col-xs-12 col-sm-4 no-gutter-right-sm
+        </div></div></div></div> <div class="mb-5"><pre>&lt;div class="grid-row">
+  &lt;div class="col-xs-6 col-sm-4 no-gutter-right-sm">
+    ...
+  &lt;/div>
+
+  &lt;div class="col-xs-6 col-sm-4 no-gutters-sm">
+    ...
+  &lt;/div>
+
+  &lt;div class="col-xs-6 col-sm-4">
+    ...
+  &lt;/div>
+&lt;/div>
+
+&lt;div class="grid-row">
+  &lt;div class="col-xs-12 no-gutters">
+    ...
+  &lt;/div>
+&lt;/div>
+
+&lt;div class="grid-row">
+  &lt;div class="col-xs-12 col-sm-4 no-gutters gutter-left-sm">
+  ...
+  &lt;/div>
+
+  &lt;div class="col-xs-12 col-sm-4 no-gutters-sm gutters-lg">
+    ...
+  &lt;/div>
+
+  &lt;div class="col-xs-12 col-sm-4 no-gutter-left-sm">
+    ...
+  &lt;/div>
+&lt;/div></pre></div></section> <section id="demo-fillers"><div class="container-fluid-1440 mb-5"><div class="grid-row"><div class="col-xs-12 text-center"><h2>Col Fillers</h2> <p class="mb-1"><i>Col Fillers</i> are similar to containers but they have 2 grid
+          cols outside content. This allow to you, set different colors in
+          each outside column.
+        </p> <p class="mb-1">
+          There are 3 predefined content sizes:
+        </p> <ul class="mb-2"><li>.grid-filler-1240</li> <li>.grid-filler-1140</li> <li>.grid-filler-1440</li></ul> <p class="mb-1">
+          You can create own:
+        </p></div></div> <div class="grid-row"><div class="col-xs-12"><pre>          
+.grid-filler-1500 {
+    @supports (display: grid) {
+      grid-template-columns: auto minmax(0, 1500px) auto;
+    }
+    .grid-filler-container {
+      max-width: 1500px;
+    }
+  }
+
+/* OR use mixin */
+
+@include make-grid-filler-size(1500);
+        </pre></div></div></div> <div class="grid-demo mb-5"><div class="grid-filler grid-filler-1140"><div class="grid-col-filler grid-left-filler"></div> <div class="grid-filler-container"><div class="grid-row"><div class="col-xs-6"><div class="box">
+              col-xs-6
+            </div></div> <div class="col-xs-6"><div class="box">
+              col-xs-6
+            </div></div></div> <div class="grid-row"><div class="col-xs-6 col-sm-4"><div class="box">
+              col-xs-6 col-sm-4
+            </div></div> <div class="col-xs-6 col-sm-4"><div class="box">
+              col-xs-6 col-sm-4
+            </div></div> <div class="col-xs-12 col-sm-4"><div class="box">
+              col-xs-12 col-sm-4
+            </div></div></div></div> <div class="grid-col-filler grid-right-filler"></div></div></div> <div class="container-fluid-1440"><div class="grid-row"><div class="col-xs-12"><div class="mb-5"><pre>&lt;div class="grid-filler grid-filler-1140">
+  &lt;div class="grid-col-filler grid-left-filler">&lt;/div>
+  &lt;div class="grid-filler-container">
+    &lt;div class="grid-row">
+      &lt;div class="col-xs-6">
+        ...
+      &lt;/div>
+
+      &lt;div class="col-xs-6">
+        ...
+      &lt;/div>
+    &lt;/div>
+    ...
+   &lt;/div>
+  &lt;div class="grid-col-filler grid-right-filler">&lt;/div>
+&lt;/div></pre></div></div></div></div></section> <section id="demo-offset" class="container-fluid-1440"><h2>Hidden / Visible</h2> <div class="grid-demo"><div class="grid-row"><div class="col-xs-12 col-sm-2 hidden-xs hidden-sm"><div class="box"><b>A</b> col-xs-12 hidden-xs hidden-sm</div></div> <div class="col-xs-12 col-sm-3 visible-lg"><div class="box"><b>B</b> col-xs-12 col-sm-3 visible-lg</div></div> <div class="col-xs-12 col-sm-3 hidden-lg"><div class="box"><b>C</b> col-xs-12 col-sm-3 hidden-lg</div></div> <div class="col-xs-12 col-sm-2"><div class="box"><b>D</b> col-xs-12 col-sm-2</div></div> <div class="col-xs-12 col-sm-2"><div class="box"><b>E</b> col-xs-12 col-sm-2</div></div></div></div> <div class="mb-5"><pre>&lt;div class="grid-row">
+    &lt;div class="col-xs-12 col-sm-2 hidden-xs hidden-sm">
+      A
+    &lt;/div>
+    &lt;div class="col-xs-12 col-sm-3 visible-lg">
+      B
+    &lt;/div>
+    &lt;div class="col-xs-12 col-sm-3 hidden-lg">
+      C
+    &lt;/div>
+    &lt;div class="col-xs-12 col-sm-2">
+      D
+    &lt;/div>
+    &lt;div class="col-xs-12 col-sm-2">
+      E
+    &lt;/div>
+  &lt;/div></pre></div></section> <section id="demo-embed" class="container-fluid-1440"><h2>Responsive Embed iframe</h2> <div class="grid-demo"><div class="grid-row"><div class="col-xs-12"><div class="box"><div class="responsive-embed-wrapper"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l69Uz1vYbNU" frameborder="0" allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div></div></div></div> <div class="grid-demo"><div class="grid-row"><div class="col-xs-8"><div class="box"><div class="responsive-embed-wrapper"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l69Uz1vYbNU" frameborder="0" allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div></div> <div class="col-xs-4"><div class="box"><div class="responsive-embed-wrapper"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l69Uz1vYbNU" frameborder="0" allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div></div></div></div> <div class="mb-5"><pre>&lt;div class="responsive-embed-wrapper">
+      &lt;iframe
+        width="560"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/l69Uz1vYbNU"
+        frameborder="0"
+        allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      &lt;/iframe>
+    &lt;/div></pre></div></section> <section id="demo-embed" class="container-fluid-1440"><h2>Margins</h2> <div class="grid-demo"><div class="grid-row"><div class="col-xs-12 mb-1"><div class="box"><b>mb-1</b>
+          margin-bottom: 10px;
+        </div></div> <div class="col-xs-12 mb-2"><div class="box"><b>mb-2</b>
+          margin-bottom: 20px;
+        </div></div> <div class="col-xs-12 mb-3"><div class="box"><b>mb-3</b>
+          margin-bottom: 30px;
+        </div></div> <div class="col-xs-12 mb-4"><div class="box"><b>mb-4</b>
+          margin-bottom: 40px;
+        </div></div> <div class="col-xs-12 mb-5"><div class="box"><b>mb-5</b>
+          margin-bottom: 50px;
+        </div></div></div> <div class="grid-row"><div class="col-xs-12 mt-1"><div class="box"><b>mt-1</b>
+          margin-top: 10px;
+        </div></div> <div class="col-xs-12 mt-2"><div class="box"><b>mt-2</b>
+          margin-top: 20px;
+        </div></div> <div class="col-xs-12 mt-3"><div class="box"><b>mt-3</b>
+          margin-top: 30px;
+        </div></div> <div class="col-xs-12 mt-4"><div class="box"><b>mt-4</b>
+          margin-top: 40px;
+        </div></div> <div class="col-xs-12 mt-5"><div class="box"><b>mt-5</b>
+          margin-top: 50px;
+        </div></div></div></div></section> <footer id="footer"><p>
+    Created by
+    <a href="https://sergiocarracedo.es">
+      Sergio Carracedo
+    </a></p> <p><a href="https://vigotech.org" class="vigotech-claim vigotech-dark">
+      Made with <i class="vt-pinecone"></i> in <strong>Vigo</strong></a></p></footer></div></div></div></div><script>window.__NUXT__={layout:"default",data:[{}],fetch:[],error:null,serverRendered:!0,routePath:"/"}</script><script src="/_nuxt/9d74884836d941bb7583.js" defer></script><script src="/_nuxt/6601a3e6bbe66de18219.js" defer></script><script src="/_nuxt/e167b7e71dbbdaadd438.js" defer></script><script src="/_nuxt/d42f9c9c7dd1ac9b1614.js" defer></script><script src="/_nuxt/d9d3157c2bcddf07f395.js" defer></script>
+  </body>
+</html>
