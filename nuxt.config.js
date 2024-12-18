@@ -65,6 +65,10 @@ module.exports = {
   */
   modules: [],
 
+  router: {
+    base: '/sireno-grid-web/'
+  }
+
   /*
   ** Build configuration
   */
