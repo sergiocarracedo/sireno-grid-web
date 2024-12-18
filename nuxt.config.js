@@ -30,7 +30,7 @@ module.exports = {
       {
         hid: "og:image",
         property: "og:image",
-        content: "https://sirenogrid.com/og-image.jpg"
+        content: "https://sergiocarracedo.github.io/sireno-grid-web/og-image.jpg"
       },
       {
         property: "twitter:card",
@@ -64,6 +64,10 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [],
+
+  router: {
+    base: '/sireno-grid-web/'
+  }
 
   /*
   ** Build configuration
